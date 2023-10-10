@@ -1,4 +1,4 @@
-const options = ["pedra", "papel", "tesoura"];
+const options = ["Pedra", "Papel", "Tesoura"];
 
 function computerPlay() {
     const randomIndex = Math.floor(Math.random() * options.length);
@@ -7,13 +7,13 @@ function computerPlay() {
 
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
-        return "É um empate!";
+        return "Empate, os dois jogaram igual!";
     } else if (
-        (playerSelection === "pedra" && computerSelection === "tesoura") ||
-        (playerSelection === "tesoura" && computerSelection === "papel") ||
-        (playerSelection === "papel" && computerSelection === "pedra")
+        (playerSelection === "Pedra" && computerSelection === "Tesoura") ||
+        (playerSelection === "Tesoura" && computerSelection === "Papel") ||
+        (playerSelection === "Papel" && computerSelection === "Pedra")
     ) {
-        return `Você venceu! ${playerSelection} vence ${computerSelection}.`;
+        return `Você ganhou! ${playerSelection} vence ${computerSelection}.`;
     } else {
         return `Você perdeu! ${computerSelection} vence ${playerSelection}.`;
     }

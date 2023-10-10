@@ -1,18 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: rgba(255, 228, 196, 0.712);
 }
 
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
     word-spacing:40px;
+    color: rgb(77, 74, 74);
+   
 }
 
 .game {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .options {
@@ -25,6 +31,8 @@ button {
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
+    background-color: rgba(17, 1, 1, 0.041);
+    border-radius: 10px;
 }
 
 .result p {
@@ -35,4 +43,5 @@ button {
 img {
     width: 100px; 
     cursor: pointer;
+    border-radius: 5px;
 }
