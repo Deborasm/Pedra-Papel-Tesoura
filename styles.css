@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    word-spacing:40px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.result p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+img {
+    width: 100px; /* Ajuste o tamanho das imagens conforme necessário */
+    cursor: pointer;
+}
