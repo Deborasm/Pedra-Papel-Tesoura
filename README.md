@@ -14,3 +14,5 @@ Clique em uma das três opções: Pedra, Papel ou Tesoura.
 O computador fará uma escolha aleatória.
 O resultado será exibido, indicando se você ganhou, perdeu ou empatou.
 Divirta-se jogando "Pedra, Papel e Tesoura"!
+
+https://deborasm.github.io/Pedra-Papel-Tesoura/
